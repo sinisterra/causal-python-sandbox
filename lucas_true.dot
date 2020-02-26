@@ -1,0 +1,10 @@
+digraph {
+  Born_an_Even_Day;
+  Anxiety, Peer_Pressure -> Smoking;
+  Smoking -> Yellow_Fingers;
+  Smoking, Genetics -> Lung_Cancer;
+  Allergy, Lung_Cancer -> Coughing;
+  Lung_Cancer, Coughing -> Fatigue;
+  Genetics -> Attention_Disorder;
+  Attention_Disorder, Fatigue -> Car_Accident;
+}

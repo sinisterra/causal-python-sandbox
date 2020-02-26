@@ -1,0 +1,16 @@
+strict digraph "" {
+	Smoking -> Yellow_Fingers	 [weight=1];
+	Smoking -> Lung_cancer	 [weight=1];
+	Anxiety -> Smoking	 [weight=1];
+	Peer_Pressure -> Smoking	 [weight=1];
+	Genetics -> Attention_Disorder	 [weight=1];
+	Genetics -> Lung_cancer	 [weight=1];
+	Attention_Disorder -> Genetics	 [weight=1];
+	Attention_Disorder -> Car_Accident	 [weight=1];
+	Born_an_Even_Day;
+	Fatigue -> Car_Accident	 [weight=1];
+	Allergy -> Coughing	 [weight=1];
+	Coughing -> Fatigue	 [weight=1];
+	Lung_cancer -> Fatigue	 [weight=1];
+	Lung_cancer -> Coughing	 [weight=1];
+}

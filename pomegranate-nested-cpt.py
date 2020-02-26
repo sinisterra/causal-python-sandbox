@@ -91,7 +91,7 @@ model.add_edge(sFatigue, sCarAccident)
 model.add_edge(sAttentionDisorder, sCarAccident)
 model.bake()
 
-prediction = model.predict_proba({"Smoking": 1, "Lung_cancer": 1})
+prediction = model.predict_proba({})
 states = [
     "Anxiety",
     "Peer_pressure",
@@ -105,5 +105,6 @@ states = [
     "Car_Accident",
 ]
 
-print([(s, p) for (s, p) in list(zip(states, prediction))])
+print(prediction)
+# print([(s, p) for (s, p) in list(zip(states, prediction))])
 

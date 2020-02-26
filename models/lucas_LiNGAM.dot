@@ -1,0 +1,24 @@
+strict digraph "" {
+	Smoking -> Anxiety	 [weight=0.281702903848856];
+	Smoking -> Peer_Pressure	 [weight=0.114440054766916];
+	Smoking -> Genetics	 [weight=-0.107154619776063];
+	Smoking -> Lung_cancer	 [weight=0.44102474382037105];
+	Yellow_Fingers -> Smoking	 [weight=0.736910089413753];
+	Attention_Disorder -> Genetics	 [weight=0.361417912332088];
+	Born_an_Even_Day;
+	Car_Accident -> Genetics	 [weight=0.0782863862065125];
+	Car_Accident -> Attention_Disorder	 [weight=0.26972356142157605];
+	Fatigue -> Genetics	 [weight=0.0763792327432084];
+	Fatigue -> Attention_Disorder	 [weight=-0.12192717177696001];
+	Fatigue -> Car_Accident	 [weight=0.490157368493524];
+	Allergy -> Fatigue	 [weight=0.110534748752652];
+	Coughing -> Anxiety	 [weight=0.104398485454595];
+	Coughing -> Genetics	 [weight=0.117497359765965];
+	Coughing -> Fatigue	 [weight=0.45814796647387296];
+	Coughing -> Allergy	 [weight=0.257452378748661];
+	Lung_cancer -> Anxiety	 [weight=0.11265750966710301];
+	Lung_cancer -> Genetics	 [weight=0.192498939532305];
+	Lung_cancer -> Fatigue	 [weight=0.16142843290922698];
+	Lung_cancer -> Allergy	 [weight=-0.16921216738634];
+	Lung_cancer -> Coughing	 [weight=0.45564630039817894];
+}

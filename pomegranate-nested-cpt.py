@@ -6,7 +6,7 @@ from pomegranate import (
     BayesianNetwork,
 )
 
-df = pd.read_csv("lucas.csv")
+df = pd.read_csv("./datasets/lucas.csv")
 
 
 def buildCpt(target, parents):

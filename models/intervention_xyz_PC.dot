@@ -1,0 +1,8 @@
+strict digraph "" {
+	x -> y	 [weight=1];
+	x -> z	 [weight=1];
+	y -> x	 [weight=1];
+	y -> z	 [weight=1];
+	z -> x	 [weight=1];
+	z -> y	 [weight=1];
+}

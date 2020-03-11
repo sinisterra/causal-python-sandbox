@@ -1,0 +1,3 @@
+strict digraph "" {
+	x -> y	 [weight=0.247257560320304];
+}

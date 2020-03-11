@@ -16,4 +16,4 @@ First:
 `docker-compose build`
 
 then:
-`docker-compose run python3 try_cdt.py`
+`docker-compose run --rm cps python3 try_cdt.py`

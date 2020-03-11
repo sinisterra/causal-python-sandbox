@@ -3,12 +3,15 @@ import pandas as pd
 import networkx as nx
 
 
-dataset_name = "lucas"
+dataset_name = "intervention_xyz"
 df = pd.read_csv(f"./datasets/{dataset_name}.csv")
 
 # Produce a graph skeleton to pre-compute the structure
 # skeleton = cdt.independence.graph.Glasso().predict(df)
 # nx.drawing.nx_agraph.write_dot(skeleton, "./skeleton.dot")
+
+algorithms = ["CCDr", "GES", "GIES", "LiNGAM", "PC"]
+
 
 models = {
     "CCDr": cdt.causality.graph.CCDr,
